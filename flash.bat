@@ -1,5 +1,5 @@
 echo Instaling Dependencies...
-arduino-cli lib install "Adafruit-GFX-Library" "Adafruit_SSD1306"
+arduino-cli lib install "Adafruit GFX Library" "Adafruit_SSD1306"
 
 echo Compile....
 arduino-cli compile --clean --fqbn arduino:avr:uno CI-CD-Arduino.ino
