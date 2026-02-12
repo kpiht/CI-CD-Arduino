@@ -1,3 +1,6 @@
+echo Instaling Dependencies...
+arduino-cli lib install "Wire" "Adafruit_GFX" "Adafruit_SSD1306"
+
 echo Compile....
 arduino-cli compile --clean --fqbn arduino:avr:uno CI-CD-Arduino.ino
 
