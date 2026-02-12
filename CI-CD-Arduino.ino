@@ -10,7 +10,7 @@
 #define OLED_RESET -1 // Pin de RESET (o -1 si está conectado al VCC)
 
 #define BUILD  "  v0.0.2"
-#define CUSTOM "CI/CD Demo"
+#define CUSTOM "CI/CD Jassiel"
 #define BRAND  "John Deere"
 
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
