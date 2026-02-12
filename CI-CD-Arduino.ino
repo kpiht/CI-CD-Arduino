@@ -9,7 +9,7 @@
 // Dirección I2C de la pantalla OLED. Comúnmente 0x3C o 0x3D.
 #define OLED_RESET -1 // Pin de RESET (o -1 si está conectado al VCC)
 
-#define BUILD  "  v0.0.1"
+#define BUILD  "  v0.0.2"
 #define CUSTOM "CI/CD Demo"
 #define BRAND  "John Deere"
 
